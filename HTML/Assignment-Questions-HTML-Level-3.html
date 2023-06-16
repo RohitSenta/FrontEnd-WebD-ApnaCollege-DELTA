@@ -1,0 +1,152 @@
+<!-- Assignment Question HTML Level - 3 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment Question HTML Level - 3</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Assignment Question HTML Level - 1</h1>
+        </header>    
+        <hr><hr>
+
+        <main> 
+            <section>
+                <h3>Recreate Table Using HTML Tables</h3>
+                <table border="black" style="color: white; background-color: black; padding: 10px;">
+                    <caption>Student Informtion</caption>
+                    <tr>
+                        <th rowspan="6">Info</th>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Address</th>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <th>House</th>
+                    </tr>
+                
+                    <tr>
+                        <td>A</td>
+                        <td>Delhi</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>Mumbai</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>Ahmedabad</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>Pune</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Recreate Form Using HTML Forms</h3>
+
+                <form action="/form">
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="gender">Sex:</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="others" value="others">
+                        <label for="others">Others</label>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="country">Country: </label>
+                        <select name="country" id="country">
+                            <option>Select an option</option>
+                            <option value="india">India</option>
+                            <option value="nepal">Nepal</option>
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </div>
+                    <br>
+
+                    <div>
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">Subsribe?</label>
+                    </div>     
+                    <br>               
+
+                    <button>Submit</button>
+                </form>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Recreate Form Using HTML Forms</h3>
+
+                <form action="/feedback">
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Write your name">
+                        <br><br>
+
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Write your email">
+                        <br><br>
+                    </div>
+                    <div>
+                        <label for="message">Message: </label><br>
+                        <textarea name="message" id="message" cols="40" rows="5"></textarea>
+                        <br><br>
+                    </div>
+                    <div>
+                        <label for="rateus">Rate us out of 5:</label>
+                        <br>
+                        <input type="radio" name="rate" id="one" value="one">
+                        <label for="one">1</label>
+                        <br>
+                        <input type="radio" name="rate" id="two" value="two">
+                        <label for="two">2</label>
+                        <br>
+                        <input type="radio" name="rate" id="three" value="three">
+                        <label for="three">3</label>
+                        <br>
+                        <input type="radio" name="rate" id="four" value="four">
+                        <label for="four">4</label>
+                        <br>
+                        <input type="radio" name="rate" id="five" value="five">
+                        <label for="five">5</label>
+                        <br><br>
+                    </div>
+
+                    <button>Send Your Message!</button>
+                </form>
+                <br>
+            </section>
+            <hr><br>
+        </main>
+    </body>
+</html>
