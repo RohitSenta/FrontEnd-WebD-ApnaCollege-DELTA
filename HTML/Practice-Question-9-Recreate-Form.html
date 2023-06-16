@@ -1,0 +1,49 @@
+<!-- Practice Question - 9 -->
+<!-- Recreate form with suitable elements and input types -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice Question - 9 - Recreate Form</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Practice Question - 9 - Recreate Form</h1>
+        </header>
+        <hr><hr>
+
+        <section>
+            <h3>Registration Form</h3>
+            <form action="/registrationform">
+                <div>
+                    <input type="text" name="fname" id="fname" placeholder="First Name"> &nbsp;
+                    <input type="text" name="lname" id="lname" placeholder="Last Nmae">
+                </div>
+                <br>
+                
+                <div>
+                    <label for="gender">Please Select Your Gender : </label>
+                    <select name="Gender" id="gender">
+                        <option value="Male" selected>Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Others</option>
+                    </select>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="agree">Do you agree to all terms of secvice? </label>
+                    <input type="checkbox" name="terms" id="agreed">
+                    <label for="agreed">Yes, I Agree</label>
+                </div>
+                <br>
+                
+                <button>Register</button>
+            </form>
+        </section>
+        <br><hr>
+    </body>
+</html>
