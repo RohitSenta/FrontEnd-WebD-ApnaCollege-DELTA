@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms In HTML</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Forms In HTML</h1>
+        </header>
+        <hr><hr>
+
+        <section>
+            
+            <form action="/inputform">
+                <div>
+                    <h3>Input - Text</h3>
+
+                    <label for="fname">Name : </label>
+                    <input type="text" name="name" id="fname" placeholder="Enter your name">
+                    <br><br>
+
+                    <label for="lname">Surname: </label>
+                    <input type="text" name="surname" id="lname" placeholder="Enter your surname">
+                    <br><br>
+
+                    <label for="username">Username : </label>
+                    <input type="text" name="username" id="username" placeholder="Enter username">
+                    <br><br>
+
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password" placeholder="Enter password">
+                    <br><br>
+
+                    <label for="age">Enter Age : </label>
+                    <input type="age" name="age" id="age" placeholder="Enter age">
+                </div>
+                <br><hr>
+
+                <div>
+                    <h3>Input - Checkbox</h3>
+
+                    <input type="checkbox" name="age2" id="age2">
+                    <label for="age2">I am 18+</label>
+                    <br>
+                    <input type="checkbox" name="study" id="study">
+                    <label for="study">Graduate</label>
+                    <br>
+                    <input type="checkbox" name="country" id="country" checked>
+                    <label for="country">Indian</label>
+                    <br>
+                </div>
+                <br><hr>
+                
+                <div>
+                    <h3>Input - Redio</h3>
+
+                    <label for="FavoriteCars">Choose Your Favorite Car : </label>
+                    <br>
+                    <input type="radio" name="FavoriteCars" id="mustang" value="Ford Mustang">
+                    <label for="mustang">Ford Mustang</label>
+                    <br>
+                    <input type="radio" name="FavoriteCars" id="BMW" value="BMW M5Compitition">
+                    <label for="BMW">BMW M5 Compitition</label>
+                    <br>
+                    <input type="radio" name="FavoriteCars" id="supra" value="Toyota Supra">
+                    <label for="supra">Toyota Supra</label>
+                    <br>
+                    <input type="radio" name="FavoriteCars" id="charger" value="Dodge Charger">
+                    <label for="charger">Dodge Charger</label>
+                    <br><br>
+
+                    <div>
+                        <label for="checkbox">Choose Your Subjects : </label><br>
+                        <input type="checkbox" name="sub" id="maths" value="Math">
+                        <label for="math">Math</label>
+                        <input type="checkbox" name="sub" id="science" value="Sci">
+                        <label for="science">Science</label>
+                        <input type="checkbox" name="sub" id="physics" value="Phy">
+                        <label for="physics">Physics</label>
+                    </div>
+                </div>
+                <br><hr>
+
+                <div>
+                    <h3>Select - Dropdown</h3>
+
+                    <label for="cars">Select Your Car : </label>
+                    <select name="car" id="car">
+                        <option value="">- Select Your FavCar -</option>
+                        <option value="Mustang" selected>Mustang</option>
+                        <option value="Charger">Charger</option>
+                        <option value="M5 Compitition">M5 Compitition</option>
+                        <option value="Supra">Supra</option>
+                        <option value="Challenger">Challenger</option>
+                    </select>
+                </div>
+                <br><hr>
+
+                <div>
+                    <h3>Range Input</h3>
+
+                    <label for="number">Select Your Number : </label>
+                    <input type="range" name="number" id="number" min="0" max="100" step="5" value="10">
+                </div>
+                <br><hr>
+                
+                <div>
+                    <h3>Text Area</h3>
+
+                    <label for="feedback">Please provide your valuable feedback : </label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="write your feedback here..."></textarea>
+                </div>
+                <br><hr><br>
+
+                <div>
+                    <button>Submit</button>
+                </div>
+                <br>
+            </form>
+        </section>
+        <hr><hr>
+
+        <footer>
+            <h2>HTML Forms Completed</h2>
+        </footer>
+        <hr><hr>
+    </body>
+</html> 
