@@ -1,0 +1,66 @@
+/* Text Align */
+h3{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+
+/* Font Weight */
+.p2{
+    font-weight: 500;
+}
+.p3{
+    font-weight: 100;
+}
+.div1{
+    font-weight: bold;
+}
+
+/* Text Decoration */
+h3{
+    text-decoration: red underline;
+}
+h4{
+    text-decoration: green line-through;
+}
+a{
+    text-decoration: none;
+}
+.p4{
+    text-decoration: purple dashed overline;
+}
+.p5{
+    text-decoration: blue wavy underline;
+}
+
+/* line height */
+h4{
+    line-height: 2.5;
+}
+.p7{
+    line-height: 3.5;
+}
+.p8{
+    line-height: 0.7;
+}
+
+/* letter spacing */
+h3{
+    letter-spacing: 3px;
+}
+.h4{
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+.p9{
+    letter-spacing: 15px;
+}
+
+/* font Family */
+.h33{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p10{
+    font-family: calibri;
+}
