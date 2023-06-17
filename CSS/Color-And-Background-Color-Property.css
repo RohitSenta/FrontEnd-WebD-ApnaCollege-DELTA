@@ -1,0 +1,17 @@
+h2{
+    color: brown;
+    background-color: cornflowerblue;
+}
+
+h3{
+    color: darkblue;
+    background-color: orangered;
+}
+p{
+    color: yellow;
+    background-color: green;
+}
+button{
+    color: darkorange;
+    background-color: black;
+}
