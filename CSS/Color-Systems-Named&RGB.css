@@ -1,0 +1,44 @@
+/* Named Color */
+.p1{
+    color: Red;
+}
+.p2{
+    color: green;
+}
+.p3{
+    color: darkblue;
+}
+
+/* RGB Color */
+.p4{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.p5{
+    color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0);
+}
+.p6{
+    color: rgb(0, 0, 255);
+    background-color: rgb(0, 0, 0);
+}
+.p7{
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 0);
+}
+.p8{
+    color: rgb(0, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.p9{
+    color: rgb(255, 0, 255);
+    background-color: rgb(0, 0, 0);
+}
+.p10{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.p11{
+    color: rgb(0, 0, 0);
+    background-color: rgb(171, 217, 255);
+}
