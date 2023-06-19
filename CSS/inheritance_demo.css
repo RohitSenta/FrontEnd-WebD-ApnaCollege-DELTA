@@ -1,0 +1,36 @@
+h1{
+    color: white;
+    background-color: #264653;
+}
+
+div{
+    background-color: #8d99ae;
+    font-family: monospace;
+}
+div h2 {
+    color: #bb3e03;
+}
+
+form{
+    font-family: fantasy;
+}
+input{
+    background-color: #f0ead2;
+}
+label{
+    font-family: inherit;
+}
+button{
+    background-color: #fd974e;
+    color: #0ba315;
+    font-family: inherit;
+} 
+
+h1 + div + div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 + div + div p{
+    background-color: rgb(154, 253, 174);
+    font-family: inherit;
+}
