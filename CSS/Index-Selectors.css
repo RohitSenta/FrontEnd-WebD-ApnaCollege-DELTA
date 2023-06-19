@@ -1,0 +1,125 @@
+/* Universal Selector */
+*{
+    font-family: "Calibri";
+}
+
+/* Element Selector */
+h1, h3{
+    color: #b92b27;
+}
+
+/* Id Selector */
+#login{
+    background-color: white;
+    color: #b92b27;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Descendent Selector */
+.post a{
+    color: purple;
+    background-color: orange;
+}
+
+nav ul li a {
+    color: deeppink;
+}
+
+/* Adjecent Sibling Combinator */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: steelblue;
+    color: yellow;
+}
+
+/* Child Combinator */
+div > input{
+    background-color:lightblue;
+} 
+
+/* Attribute Selector */
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+
+input[type]{
+    background-color: lightpink;
+}
+
+/* Prectice Questuon */
+div[id="myId"] p{
+    color: darkgreen;
+}
+
+/* Psuedo Class */
+/* hover */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* active */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bolder;
+    color: navy;
+}
+
+/* checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type()*/
+div:nth-of-type(2n){
+    background-color: bisque;
+}
+
+/* Psuedo Element */
+h1::first-letter{
+    color: darkblue;
+}
+#myId p::first-line{
+    color: darkmagenta;
+    font-weight: bold;
+}
+p::selection{
+    background-color: rgb(241, 165, 111);
+}
+
+h3{
+    background-color: green;
+}
+h3{
+    background-color: blue;
+}
+
+/* Important Keyword */
+h3{
+    background-color: skyblue !important;
+    text-decoration: none !important;
+}
+
+h1 button:hover{
+    background-color: #75f075 !important;
+    color: black !important;
+}
