@@ -1,0 +1,36 @@
+div{
+    height: 200px;
+    width: 600px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: darkblue; */
+    /* border: 5px double orange;
+    border-left-color: blue;
+    border-left-style: dashed; */
+    /* border: 5px solid yellow;
+    border-top: 5px dashed blue; */
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px 30px;
+}
+
+h1{
+    /* border-style: dashed;
+    border-width: 3px;
+    border-color: green; */
+    border: 3px dashed darkblue;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+button{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 10px 20px;
+    margin: 30px;
+}
