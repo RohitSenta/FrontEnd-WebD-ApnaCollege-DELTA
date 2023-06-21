@@ -1,3 +1,4 @@
+/* Question -1  */
 #Box1{
     height: 150px;
     width: 300px;
@@ -11,6 +12,7 @@
     padding: 1em;
 }
 
+/* Question - 2 */
 .Box2{
     height: 100px;
     width: 100px;
@@ -21,6 +23,7 @@
     margin: 1em;
 }
 
+/* Question - 3 */
 ul{
     margin: 30px;
 }
