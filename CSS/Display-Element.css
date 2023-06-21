@@ -1,0 +1,27 @@
+span{
+    background-color: rgba(240, 128, 128, 0.482);
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    padding: 50px;
+    margin: 30px;
+}
+
+div{
+    background-color: lightgreen;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 30px;
+}
+
+.childdiv{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
