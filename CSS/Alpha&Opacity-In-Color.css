@@ -1,0 +1,118 @@
+/* Alpha Value In RGBA Value */
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.6);
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div4{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 1);
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Alpha Value In HEX Code */
+.div5{
+    height: 200px;
+    width: 200px;
+    background-color: #00ff0000;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div6{
+    height: 200px;
+    width: 200px;
+    background-color: #00ff0033;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div7{
+    height: 200px;
+    width: 200px;
+    background-color: #00ff0099;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div8{
+    height: 200px;
+    width: 200px;
+    background-color: #00ff00ff;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Opacity */
+/* Alpha Value In RGBA Value */
+.div11{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    opacity: 0;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div22{
+    height: 200px;
+    width: 200px;
+    background-color: Blue;
+    opacity: 0.2;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div33{
+    height: 200px;
+    width: 200px;
+    background-color: Blue;
+    opacity: 0.6;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.div44{
+    height: 200px;
+    width: 200px;
+    background-color: Blue;
+    opacity: 1;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
