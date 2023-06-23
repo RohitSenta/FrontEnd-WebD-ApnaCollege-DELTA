@@ -1,0 +1,31 @@
+.div1{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #00ff00;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+.div1:hover{
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #00ff00;
+    transition: margin-left 2s ease-out 1s;
+}
+.div2:hover{
+    background-color: #ff0000;
+    margin-left: 500px;
+}
+
