@@ -1,0 +1,43 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* static position */
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+/* relative position */
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* absolute position */
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+/* fixed position */
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+}
