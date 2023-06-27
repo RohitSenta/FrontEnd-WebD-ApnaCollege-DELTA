@@ -1,3 +1,9 @@
+body{
+    border: 5px inset #5555;
+    margin: 20px;
+    padding: 30px;
+}
+
 /* color */
 .violet{
     background-color: #9400d3;
@@ -120,9 +126,9 @@ h1, h2, h3{
 }
 
 /* Flex-Shrink */
-/* Flex-Direction - Column - Flex-Sizing - Flex-Shrink */
+/* Flex-Direction - Row - Flex-Sizing - Flex-Shrink */
 #container4{
-    height: 500px;
+    height: 400px;
     width: 80%;
     margin: 20px auto;
     border: 2px solid black;
@@ -146,4 +152,61 @@ h1, h2, h3{
 }
 #org4{
     flex-shrink: 2;
+}
+/* Flex-Direction - Row - Flex-Sizing - Flex-Shrink */
+#container5{
+    height: 500px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: #b8e4ff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* align-content: flex-start; */
+    /* flex-wrap: wrap; */
+}
+#container5 div{
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#blu5{
+    flex-shrink: 3;
+}
+#org5{
+    flex-shrink: 2;
+}
+
+/* Flex-Shorthand Property - Flex-Grow - Flex-Shrink - Flex-Basis */
+#container6{
+    height: 300px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: #b8e4ff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* align-content: flex-start; */
+    /* flex-wrap: wrap; */
+}
+#container6 div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+/* Blue : Flex-Grow-2 | Flex-Shrink-1 | Flex-Basis-100px */
+#blu6{
+    flex: 2 2 100px;
+}
+/* Orange : Flex-Grow-1 | Flex-Shrink-2 | Flex-Basis-100px */
+#org6{
+    flex: 1 1 100px;
 }
