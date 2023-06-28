@@ -176,9 +176,11 @@ h1, h2, h3{
 }
 #blu5{
     flex-shrink: 3;
+    flex-grow: 2;
 }
 #org5{
     flex-shrink: 2;
+    flex-grow: 3;
 }
 
 /* Flex-Shorthand Property - Flex-Grow - Flex-Shrink - Flex-Basis */
