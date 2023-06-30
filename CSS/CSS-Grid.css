@@ -1,0 +1,458 @@
+/* Display Grid */
+.container1{
+    width: 600px;
+    height: 300px;
+    background-color: #ffc681;
+    margin: 20px;
+    display: grid;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: #10325e;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Grid Tamplate */
+.container2{
+    width: 600px;
+    height: 400px;
+    background-color: #fcd2b8;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-template-columns: 120px 120px 120px;
+}
+.item2{
+    width: 100px;
+    height: 50px;
+    background-color: #c7681b;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Grid Tamplate - auto */
+.container22{
+    width: 600px;
+    height: 400px;
+    background-color: #fcd2b8;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-template-columns: 200px 200px 200px;
+}
+.item22{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #c7681b;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Grid Tamplete - Repeat */
+.container3{
+    width: 600px;
+    height: 300px;
+    background-color: #fdff81;
+    margin: 20px;
+    display: grid;
+    /* grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-template-columns: 200px 200px 200px; */
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+.item3{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #6af448;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.container33{
+    width: 600px;
+    height: 300px;
+    background-color: #fdff81;
+    margin: 20px;
+    display: grid;
+    /* grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-template-columns: 200px 200px 200px; */
+    /* grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item33{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #6af448;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Grid Gap - row-gaps - column-gaps */
+.container4{
+    width: 600px;
+    height: 300px;
+    background-color: #fdff81;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.item4{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #6af448;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+/* Grid Gap - row-column */
+.container44{
+    width: 600px;
+    height: 300px;
+    background-color: #fdff81;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    /* grid-gap: 20px 10px; */
+    grid-gap: 20px;
+}
+.item44{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #6af448;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Grid-Columns */
+.container5{
+    width: 600px;
+    height: 300px;
+    background-color: #d0d8ff;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.item5{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #23339e;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.one1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* grid-column: 1 / span 2; */
+    grid-column: 1 / 3;
+}
+
+/* Grid-Rows */
+.container6{
+    width: 600px;
+    height: 300px;
+    background-color: #d0d8ff;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.item6{
+    /* width: 100px;
+    height: 50px; */
+    background-color: #23339e;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.one2{
+    grid-column: 1 / 3;
+}
+.two1{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    /* grid-row: 1 / span 2; */
+    grid-row: 1 / 3;
+}
+
+/* Grid-Properties */
+/* Justify-Items - Horizontally - Start*/
+.container7a{
+    width: 600px;
+    height: 300px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: start;
+}
+.item7a{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+/* Justify-Items - Horizontally - End*/
+.container7b{
+    width: 600px;
+    height: 300px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: end;
+}
+.item7b{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+/* Justify-Items - Horizontally - Center*/
+.container7c{
+    width: 600px;
+    height: 300px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+}
+.item7c{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+/* Justify-self - Horizontally - end*/
+.container7d{
+    width: 600px;
+    height: 300px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.item7d{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.two2{
+    justify-self: end;
+}
+
+/* Align-Items - Vertically - Start*/
+.container7e{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+.item7e{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Align-Items - Vertically - End */
+.container7f{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+    align-items: end;
+}
+.item7f{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Align-Items - Vertically - Center */
+.container7g{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.item7g{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Align-self - Vertically - start */
+.container7g{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+    /* align-items: center; */
+}
+.item7g{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.one3{
+    align-self: start;
+}
+
+/* Place-Items - Horizontally And Vertically - Center */
+.container7h{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-items: center;
+}
+.item7h{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Place-self - Horizontallay And Vertically - End */
+.container7i{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-items: center;
+}
+.item7i{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.one4{
+    place-self: end;
+}
+
+/* Display-Inline-Grid - Place-Items - Horizontally And Vertically - Center */
+.container7j{
+    width: 600px;
+    height: 400px;
+    background-color: #d9ffd0;
+    margin: 20px;
+    display: inline-grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-items: center;
+}
+.item7j{
+    width: 100px;
+    height: 50px;
+    background-color: #239e2f;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
