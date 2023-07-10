@@ -182,13 +182,29 @@ a {
     width: 160px;
     border-radius: 0.5rem;
     padding: 1rem;
-    margin: 0.75rem 0.75rem;
+    margin: 0.75rem 0 0.75rem 0;
+    margin-right: 1.5rem;
+}
+
+/* .play-btn {
+    position: relative;
+    width: 3rem;
+    opacity: 0;
+    top: -4rem;
+    left: 6.2rem;
+    border-radius: 50%;
+} */
+
+.card:hover, .play-btn:hover{
+    transition: 0.75s;
+    background-color: #262626;
+    /* opacity: 1; */
 }
 
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .card-header {
@@ -201,6 +217,7 @@ a {
 .card-img {
     width: 100%;
     border-radius: 0.5rem;
+    display: absolute;
 }
 
 .card-title {
@@ -213,7 +230,7 @@ a {
 }
 
 .footer {
-    height: 250px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
