@@ -7,7 +7,7 @@ console.log("Q-1 : Write an arrow function that returns the square of number 'n'
 
 // let square = (n) => {
 //     return n * n;
-// }
+// }    
 
 let square = n => n * n;
 
