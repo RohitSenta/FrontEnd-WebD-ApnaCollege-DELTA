@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tailwind CSS Demo</title>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="underline ml-4 p-4 text-7xl font-semibold">Hello World! - h1</h1>
+        <h2 class="text-5xl font-medium">Hello World! - h2</h2>
+        <h3 class="text-3xl font-thin">Hello World! - h3</h3>
+        <h4 class="text-xl italic">Hello World! - h4</h4>
+        <br><hr><hr><br>
+
+        <p class="font-sens">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo blanditiis libero soluta! Mollitia nulla atque odio minus, nemo commodi labore, aliquam quas, quo molestias maiores incidunt velit alias earum.
+        </p>
+        <br>
+        <p class="font-serif text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo blanditiis libero soluta! Mollitia nulla atque odio minus, nemo commodi labore, aliquam quas, quo molestias maiores incidunt velit alias earum.
+        </p>
+        <br>
+        <p class="font-mono text-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo blanditiis libero soluta! Mollitia nulla atque odio minus, nemo commodi labore, aliquam quas, quo molestias maiores incidunt velit alias earum.
+        </p>
+        <br><hr><hr><br>
+
+        <div class="bg-purple-800 text-gray-100 w-2/3 h-100 text-3xl font-semibold m-4 p-8">
+            This is a div
+            <div class="flex flex-wrap space-x-24 justify-center my-4">
+                <div class="bg-red-600 text-white p-4 m-4 border-2 rounded-3xl h-[100px] w-[200px] text-center items-center">One</div>
+                <div class="bg-yellow-500 text-black p-4 m-4 border-2 border-black rounded-3xl h-[100px] w-[200px] text-center items-center">Two</div>
+                <div class="bg-green-600 text-white p-4 m-4 border-2 rounded-3xl h-[100px] w-[200px] text-center items-center">Three</div>
+            </div>
+        </div>
+        <br><hr><hr><br>
+
+        <div>
+            <div class="box md:w-60 lg:w-80">Break-Points</div>
+            <div class="box sm:bg-purple-500 md:bg-green-500">Break-Points Colors</div>
+            <div class="box">Break-Points Colors</div>
+        </div>
+        <br><hr><hr>
+        <br><hr><hr><br>
+
+        <div class="m-4">
+            <h1 class="text-center text-5xl bg-gray-300 p-4 my-4 rounded">Design a Card in TailwindCSS</h1>
+
+            <div class="m-6 mx-60 flex flex-wrap rounded-lg border-2 border-black">
+                <!-- Quote Container -->
+                <div class="w-full bg-gradient-to-r from-sky-500 to-indigo-500 text-white p-4 h-20 flex justify-center items-center font-bold text-3xl rounded-t-md">
+                    News You Can Trust
+                </div>
+    
+                <!-- Content Conteainer -->
+                <div class="w-full text-center mt-6"> 
+                    <h3 class="text-lg font-semibold">
+                        Stay up to date with the Latest!
+                    </h3>
+                    <p>
+                        Subscribe oue newsletter for the letest news straight into your inbox.
+                    </p>
+                    <form class="flex flex-wrap">
+                        <input placeholder="your@email.com" class="w-full mx-60 bg-slate-200 text-center placeholder: text-sm my-4 py-2 rounded">
+                        <button class="bg-blue-500 text-white mx-60 py-2 w-full rounded-full ">Subscribe Now!</button>
+                    </form>
+                    <p class="m-6 text-sm">We value your privecy</p>
+                </div>
+            </div>
+        </div>
+        <br><hr><hr>
+        <br><hr><hr>
+        <br><br>
+    </body>
+</html>
